@@ -1,12 +1,23 @@
-## WTL 
+# WTL
 
-### How to Run 🏃‍♀️
+## Backend development workflow
 
-```shell
-1 Clone This Repo
-2 python -m venv env
-3 .\env\Scripts\activate
-4 pip install -r requirements.txt 
-5 python manage.py runserver
+```json
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
+```
 
+## Frontend development workflow
+
+```json
+npm i
+npm start
+```
+
+## For deploying
+
+```json
+npm run build
 ```
